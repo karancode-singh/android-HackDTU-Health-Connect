@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:background="#E4E5E5"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aditya21196.hackdtut3.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:textSize="20sp"
+        android:id="@+id/etName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="Age"
+        android:textSize="20sp"
+        android:id="@+id/etAge" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="E-mail"
+        android:textSize="20sp"
+        android:id="@+id/etMail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="Phone-No"
+        android:textSize="20sp"
+        android:id="@+id/etPhoneNo" />
+
+    <AutoCompleteTextView
+        android:hint="State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/aCState" />
+
+    <TextView
+        android:text="Gender:"
+        android:textColor="#000"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/sexRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:text="Blood Group:"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodGroupSpinner"
+        android:textSize="30sp"
+        android:entries="@array/bloodGroupTypes"></Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:id="@+id/etPwdR" />
+
+
+    <Button
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bRegister" />
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "508373012156",
+    "firebase_url": "https://hackdtut3.firebaseio.com",
+    "project_id": "hackdtut3",
+    "storage_bucket": "hackdtut3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508373012156:android:65edd881ca620403",
+        "android_client_info": {
+          "package_name": "com.example.aditya21196.hackdtut3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508373012156-jj1mt6j9oo7ggem7evcmpqp1u3a1gore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD4nXyj1rLGBXbzBuNcWco23953Bg8RLY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508373012156-jj1mt6j9oo7ggem7evcmpqp1u3a1gore.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
